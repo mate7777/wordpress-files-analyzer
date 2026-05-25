@@ -45,18 +45,13 @@ This extension is meant for quick inspection during development, maintenance, an
 
 ## Screenshots
 
-Add screenshots in a `screenshots/` folder, for example:
+### Popup Overview
 
-```text
-screenshots/popup-overview.png
-screenshots/duplicates-details.png
-```
+![Popup overview](screenshots/popup-overview.png)
 
-Suggested screenshots:
+### Duplicate Details
 
-- popup on a real WordPress page;
-- duplicate warning expanded;
-- grouped plugin/theme/core sections.
+![Duplicate details](screenshots/duplicates-details.png)
 
 ## Permissions
 
