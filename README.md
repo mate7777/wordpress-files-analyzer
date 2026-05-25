@@ -1,5 +1,9 @@
 # WordPress Files Analyzer
 
+<p align="center">
+  <img src="icon-128.png" width="96" height="96" alt="WordPress Files Analyzer icon">
+</p>
+
 Chrome extension to list the JavaScript and CSS files loaded on the current WordPress page.
 
 It groups assets by source so you can quickly spot files coming from plugins, the active theme, WordPress core, or external sources. It also highlights duplicated files when the same asset is loaded more than once with different query strings.
