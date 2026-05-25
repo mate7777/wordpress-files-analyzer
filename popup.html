@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WordPress JS & CSS Files</title>
+  <meta charset="UTF-8">
+  <style>
+    body { 
+      width: 450px; 
+      font-family: Arial, sans-serif; 
+      padding: 10px;
+    }
+    ul { 
+      list-style: none; 
+      padding: 0; 
+    }
+    li { 
+      word-break: break-all; 
+      padding: 5px 0; 
+    }
+    strong {
+      display: block;
+      margin-top: 10px;
+      padding: 5px;
+      background-color: #f0f0f0;
+    }
+    em {
+      color: #0073aa;
+      font-weight: bold;
+    }
+    .js-file {
+      color: #007acc; /* Bleu pour JavaScript */
+      position: relative;
+    }
+    .js-file::before {
+      content: "JS";
+      background-color: #007acc;
+      color: white;
+      padding: 1px 3px;
+      border-radius: 3px;
+      font-size: 10px;
+      margin-right: 5px;
+    }
+    .css-file {
+      color: #c71585; /* Rose pour CSS */
+      position: relative;
+    }
+    .css-file::before {
+      content: "CSS";
+      background-color: #c71585;
+      color: white;
+      padding: 1px 3px;
+      border-radius: 3px;
+      font-size: 10px;
+      margin-right: 5px;
+    }
+    .duplicate {
+      color: #ff0000 !important; /* Rouge pour les doublons */
+      font-weight: bold;
+    }
+    .duplicate-count {
+      color: #ff0000;
+      font-weight: bold;
+    }
+    .legend {
+      display: flex;
+      margin-bottom: 10px;
+      padding: 5px;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+    }
+    .legend span {
+      margin-right: 15px;
+    }
+    .duplicate-example {
+      color: #ff0000;
+      font-weight: bold;
+    }
+    .duplicate-warning {
+      background-color: #fff0f0;
+      border-left: 4px solid #ff0000;
+      padding: 8px;
+      margin-bottom: 10px;
+      color: #d8000c;
+    }
+    .variants-list {
+      margin-left: 40px;
+      font-size: 0.9em;
+      background-color: #f9f9f9;
+      padding: 5px;
+      border-left: 3px solid #ccc;
+    }
+    .variants-list li {
+      color: #666;
+    }
+    .details-btn {
+      margin-left: 5px;
+      font-size: 0.8em;
+      padding: 2px 5px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .details-btn:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <h2>WordPress JS & CSS Files</h2>
+  <div class="legend">
+    <span class="js-file">JavaScript</span>
+    <span class="css-file">CSS</span>
+    <span class="duplicate-example">Duplicates</span>
+  </div>
+  <ul id="file-list">Loading...</ul>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Here are some possible feature ideas for the WordPress file analysis extension:
+
+1. Performance analysis: evaluate JS and CSS file sizes to identify files that may slow down page loading.
+2. Version detection: inspect JS/CSS library versions and flag outdated or potentially vulnerable versions.
+3. Minification checker: detect whether files are minified and highlight files that may benefit from minification.
+4. Resource grouping suggestions: identify opportunities to group multiple files and reduce HTTP requests.
+5. File validation: add basic JS/CSS validation to flag possible syntax errors.
+6. Filters and search: add filtering options to make specific files easier to find.
+7. Results export: allow exporting the file list as CSV or JSON.
+8. Comparison mode: compare files loaded across different pages of the same site.
+9. DevTools integration: open files directly in Chrome DevTools for inspection.
+10. Dependency detection: identify relationships between files, such as scripts depending on other scripts.
